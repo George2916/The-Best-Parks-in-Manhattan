@@ -1,7 +1,7 @@
 #homepage {
     background-color: rgba(28,168,6,0.8);
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
 }
 
 /* Heading */
@@ -12,7 +12,9 @@
     color: #f2a115;
     font-family: 'Lobster', cursive;
     margin-top: 30px;
+    text-shadow: 2px 2px 7px #F3F3F3;
 }
+
 
 .img-thumbnail {
     max-width: 100%;
@@ -52,17 +54,25 @@ span.text-content span {
 /* Styling below is for footer for all pages */
 
 #hpagef {
-  margin-top: 230px;
+  margin-top: 145px;
 }
 
 /* Styling below is for pages upper, mid, and lower.html */
 
 .panel-default .panel-heading {
   font-family: 'Lobster', cursive;
-  font-size: 26px;
+  font-size: 30px;
   color: #F2A115;
   background-color: rgba(28,168,6,0.7);
-  text-shadow: 2px 2px 7px #111;
+  text-shadow: 2px 2px 7px #F3F3F3;
 }
 
+
+
+/*Media Queries*/
+@media only screen and (max-width: 360px) {
+  #mmq {
+    margin-top: 15px;
+  }
+}
 
